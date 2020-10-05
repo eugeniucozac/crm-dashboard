@@ -1,0 +1,567 @@
+@import "variables.scss";
+
+.main {
+  background: $whiteBackground;
+  padding: 30px 30px 0 30px;
+  min-height: 900px;
+}
+
+.ms-panel {
+  background: $white;
+  -webkit-box-shadow: 0 1px 6px 1px $grayShadow;
+  -moz-box-shadow: 0 1px 6px 1px $grayShadow;
+  box-shadow: 0 1px 6px 1px $grayShadow;
+  margin-bottom: 30px;
+}
+
+.ms-panel-header {
+  position: relative;
+  padding: 1.5rem;
+}
+
+.ms-panel-header h6 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ms-panel-body,
+.ms-panel-footer {
+  position: relative;
+  padding: 1.5rem;
+}
+
+.ms-panel-body h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ms-panel-body thead {
+  background-color: $blue;
+  color: $white;
+}
+
+.ms-panel-body thead tr {
+  border-color: inherit;
+  border-spacing: 0;
+}
+
+.ms-panel-body button {
+  margin-top: 0 !important;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.color-blue {
+  color: $blue !important;
+  font-weight: bold;
+}
+
+.dataTables_info {
+  color: $gray;
+}
+
+#data-table-2_info {
+  line-height: 2.35rem;
+  margin-right: 1rem;
+}
+
+.custom-select {
+  border-radius: 0 !important;
+}
+
+.fixed,
+.side-nav.fixed {
+  min-height: 900px;
+  position: absolute;
+  left: -15px;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  margin: 0;
+  height: calc(100% + 30px);
+  float: left;
+  padding-bottom: 3.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 999;
+  overflow-y: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.3s transform;
+  transition: 0.3s transform;
+  list-style-type: none;
+  padding: 0;
+  background-color: #3a3952;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  ul {
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    margin-top: 1rem;
+    &#form-elements {
+      margin-top: 0;
+      padding-left: 2.2rem;
+      background-color: $grayTwo;
+    }
+    li.menu-item {
+      padding: 0;
+      > span,
+      a {
+        position: relative;
+        display: block;
+        padding: 15px 0 15px 25px;
+        color: $grayThree;
+        -webkit-transition: 0s;
+        transition: 0s;
+        &:hover {
+          text-decoration: none;
+        }
+        span {
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+          color: $grayThree;
+          i,
+          svg {
+            margin-right: 20px;
+          }
+        }
+        &.selected {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+ul {
+  padding-left: 0;
+  .ms-open-chat {
+    position: relative;
+    border-bottom: 1px solid $grayBorder;
+    padding-left: 0 !important;
+    &:first-of-type {
+      padding-top: 0 !important;
+    }
+    .ms-chat-user-info {
+      position: relative;
+      h6 {
+        display: inline;
+        margin-bottom: 0;
+        font-size: 13px;
+        color: $grayTwo;
+      }
+      .ms-chat-time {
+        font-size: 12px;
+        color: $grayFour;
+        float: right;
+      }
+      p {
+        font-size: 14px;
+        color: $grayFour;
+        margin-bottom: 0;
+        width: 85%;
+      }
+    }
+  }
+}
+
+.ms-news-flash-container {
+  overflow: hidden;
+  padding: 1.2rem;
+  .ms-news-update {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 100%;
+    background-color: $violetTwo;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    span {
+      text-transform: uppercase;
+      color: $white;
+      margin-left: 15px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-bottom: 70px solid $white;
+      border-left: 35px solid transparent;
+    }
+  }
+  ul {
+    margin-bottom: 0;
+    li {
+      p {
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-left: 170px;
+      }
+    }
+  }
+}
+
+.ms-content-wrapper {
+  padding: 30px;
+  .ms-panel {
+    background: $white;
+    -webkit-box-shadow: 0 1px 6px 1px $grayShadow;
+    -moz-box-shadow: 0 1px 6px 1px $grayShadow;
+    box-shadow: 0 1px 6px 1px $grayShadow;
+    margin-bottom: 30px;
+  }
+}
+
+.ms-email-panel .ms-panel-body {
+  display: flex;
+}
+
+.ms-email-panel .ms-email-main {
+  flex: 1 1 auto;
+  width: calc(100% - 350px);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ms-panel-header {
+  position: relative;
+  padding: 1.5rem;
+  border-bottom: 1px solid $grayBorder;
+  h6 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  p {
+    font-size: 13px;
+    margin: 0.25rem 0 0 0;
+  }
+  .ms-email-pagination {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    margin-bottom: 0;
+    width: auto;
+    li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+    .ms-email-pagination-item {
+      a,
+      button {
+        padding: 7px 10px;
+        border: 1px solid $grayBorder;
+        border-radius: 5px;
+        display: block;
+      }
+      button {
+        margin-top: 0;
+        background: transparent;
+        border: 1px solid $grayBorder;
+        color: #212529;
+      }
+    }
+  }
+}
+
+.ms-email-content {
+  position: relative;
+  .swal2-close {
+    position: absolute;
+    top: -0.5rem;
+    right: 0;
+    justify-content: center;
+    width: 0.75em;
+    height: 0.75em;
+    padding: 0;
+    transition: color 0.1s ease-out;
+    border: none;
+    border-radius: 0;
+    outline: initial;
+    background: 0 0;
+    color: #ccc;
+    font-family: serif;
+    font-size: 2.5em;
+    line-height: 0.75;
+    cursor: pointer;
+    margin-top: 0;
+    z-index: 1;
+    &:hover {
+      background: transparent;
+      color: $blue;
+    }
+  }
+  .ms-img-round-small {
+    background-color: $blue;
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    h6 {
+      font-weight: 500;
+    }
+  }
+  .ms-email {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    position: relative;
+    background: $white;
+    box-shadow: 0 1px 6px 1px $grayShadow;
+    margin-bottom: 0.25rem;
+    .ms-checkbox-wrap {
+      position: relative;
+      margin-bottom: 0;
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+    }
+    .ms-img-round {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: $white;
+      background: $blue;
+      font-size: 1.25rem;
+    }
+    .ms-email-details {
+      width: 100%;
+      h6 {
+        display: inline;
+        font-size: 14px;
+      }
+      .ms-email-sender {
+        font-size: 14px;
+        font-weight: 600;
+        color: $violet;
+        display: block;
+        margin: 0.25rem 0;
+        i {
+          font-weight: 400;
+        }
+      }
+      .ms-email-time {
+        font-size: 12px;
+        color: $grayFour;
+        position: absolute;
+        top: 1rem;
+        right: 0;
+        font-weight: 400;
+        margin-right: 25px;
+      }
+      p {
+        font-size: 14px;
+        color: $grayFour;
+        margin-bottom: 0;
+      }
+      &.issue-details {
+        .add-issue {
+          margin-right: 0.5rem;
+        }
+        .ms-email-sender {
+          font-weight: 400;
+          margin-bottom: 1rem;
+        }
+        p {
+          color: #212529;
+          margin-bottom: 1rem;
+          padding-right: 2rem;
+        }
+        .form-group {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.issue-block {
+  border-left: 1px solid $grayBorder;
+}
+
+.no-messages {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.issues-dashboard {
+  h6.smaller {
+    font-size: 14px;
+  }
+  .ms-email-content {
+    .ms-email {
+      box-shadow: none;
+      margin-bottom: 0;
+      border-bottom: 1px solid $grayBorder;
+      padding: 1rem;
+      &:hover {
+        background-color: $whiteBackground;
+      }
+      .ms-img-round {
+        width: 50px;
+        height: 50px;
+        margin-top: 0.5rem;
+        background-color: $blueTwo;
+      }
+    }
+  }
+}
+
+.one-issue {
+  position: relative;
+}
+
+.closeIssue {
+  position: absolute !important;
+  top: 1.9rem;
+  right: 0.5rem;
+  .dropdown-toggle.btn.btn-primary {
+    background: transparent !important;
+    color: $grayFour !important;
+    border: none !important;
+  }
+  .dropdown-menu.show {
+    border: 1px solid $grayBorder;
+    border-radius: 0.25rem;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    box-shadow: 0 1px 24px $grayBorder;
+    color: #34334a;
+    font-size: 14px;
+  }
+  .dropdown-toggle {
+    background: transparent;
+    color: $grayFour;
+    border: none;
+    margin-top: 0;
+    &:after {
+      display: none;
+    }
+    &:hover,
+    &:active {
+      background: transparent;
+      color: $grayFour;
+    }
+  }
+}
+
+.ms-email-aside {
+  padding: 1.5rem;
+  .btn-primary {
+    background: $green;
+    border-color: $green;
+    padding: 0.625rem 1rem;
+    svg {
+      margin-right: 10px;
+    }
+  }
+  .ms-email-list {
+    border-bottom: 1px solid $grayBorder;
+    margin-bottom: 0.25rem;
+    .ms-email-label {
+      font-size: 13px;
+      padding-bottom: 0 !important;
+      color: $gray;
+    }
+    .ms-list-item {
+      margin-bottom: 0;
+      position: relative;
+      padding: 0.65rem 0;
+      &.ms-active-email {
+        color: $blue;
+      }
+      a {
+        display: block;
+        transition: 0.3s;
+        color: $grayTwo;
+        font-size: 14px;
+        cursor: pointer;
+        svg {
+          color: $gray;
+          margin-right: 10px;
+          font-size: 18px;
+          transition: 0.3s;
+        }
+        &:hover,
+        &.active {
+          text-decoration: none;
+          color: $blue;
+          svg {
+            color: $blue;
+          }
+        }
+        span {
+          color: $gray;
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+.modal-body {
+  .form-label {
+    color: #3a3952;
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+.modal-footer {
+  .btn {
+    margin-top: 0;
+  }
+}
+
+/* Pagination */
+.pagination {
+  &.issues {
+    .arrows {
+      button {
+        margin-top: 0;
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
+      }
+    }
+  }
+  p {
+    margin: 0.5rem 0 0;
+  }
+  .arrows {
+    button {
+      background: white;
+      border-radius: 0 !important;
+      color: #212529;
+      border: 1px solid #dee2e6;
+      margin-left: 1rem;
+      &:hover,
+      &:active {
+        background: #dee2e6;
+        border: 1px solid #dee2e6;
+      }
+      &:disabled {
+        color: #dee2e6;
+        border: 1px solid #dee2e6;
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.form {
+  margin-top: 1rem !important;
+}
+
+.href {
+  text-transform: none;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.header h6 {
+  font-size: 13px;
+}
+
+.headermini {
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.invoiceaddress h5,
+.byconsultant {
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: #3a3952;
+}
+
+.categoriesconsultants h2 {
+  margin: 0 0 1.25rem 0;
+  font-size: 14px;
+  color: #3a3952;
+  font-weight: 600;
+}
+
+.categoriesconsultants ul li {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  text-align: center;
+  min-width: 100px;
+  font-weight: 500;
+}
+
+.barier {
+  margin-bottom: 1.5rem;
+}
+
+.barier h2 {
+  font-size: 14px;
+  color: #3a3952;
+  font-weight: 600;
+}
+
+.user {
+  margin: 0.5rem 0 1rem;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.user h4 {
+  font-size: 14px;
+  color: #3a3952;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.user p {
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+
+.user .row {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.625rem 1rem !important;
+}
+
+.mschatimg {
+  width: 40px;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.mschattime {
+  font-size: 12px;
+}
+
+.mschattext {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mschattext p:first-child {
+  border-top-left-radius: 0;
+}
+
+.mschattext p {
+  background-color: #f0f0f7;
+  color: #3a3952;
+  position: relative;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  max-width: 80%;
+  text-align: left;
+}
+
+.mschattext p:first-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  border-top: 0px solid transparent;
+  border-right: 9px solid #f0f0f7;
+  border-bottom: 12px solid transparent;
+}
+
+.msimground {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  background: #357ffa;
+  font-size: 1.25rem;
+}
+
+.messages img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.sign {
+  font-size: 1.1rem;
+  padding-top: 0.15rem;
+  line-height: 1.5rem;
+  padding-left: 0.5rem !important;
+  color: #878793;
+}

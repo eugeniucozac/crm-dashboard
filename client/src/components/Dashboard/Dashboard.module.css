@@ -1,0 +1,14 @@
+.breadcrumb {
+  background: transparent;
+  display: flex;
+}
+
+.breadcrumb a {
+  color: #34334a;
+}
+
+/*
+.cke_editable #pageHeader-first {
+  display: none;
+}
+ */

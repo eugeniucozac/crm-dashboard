@@ -1,0 +1,21 @@
+.employee {
+  position: relative;
+  padding: 1rem 0 1.5rem 0;
+}
+
+.employee .h6 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.employee a {
+  text-transform: none;
+  font-weight: 400;
+}
+
+.button {
+  text-align: right;
+  padding-top: 0.5rem;
+}

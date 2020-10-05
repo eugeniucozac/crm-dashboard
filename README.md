@@ -1,0 +1,25 @@
+# CRM Dashboard
+
+This is a CRM React Dashboard
+
+## Quick Overview
+
+In this project I used NodeJS, ExpressJS, PostreSQL, ReactJS, Redux, Formik and D3.js
+
+### Installing
+
+To install the project you should:
+
+```
+npm install
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Authors
+
+- **Eugeniu Cozac** - [Personal Website](http://eugenecozac.com/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 1px solid var(--gray-border);
+}
+
+.header h1 {
+  margin-bottom: 0;
+}
+
+.header h1 img {
+  margin: 0.5rem;
+}
+
+.logout {
+  padding: 0.65rem 2.5rem !important;
+  float: right;
+  margin-right: 1rem;
+}

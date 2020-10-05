@@ -1,0 +1,28 @@
+$violet : #3a3952;
+$violetTwo : #5d5cac;
+$blue: #357ffa;
+$blueTwo: #007bff;
+$white: #fff;
+$gray: #878793;
+$grayBorder: rgba(0,0,0,.1);
+$whiteBackground: #f0f0fa;
+$red: #f9423c;
+$green: #28a745;
+$grayTwo: #34334a;
+$grayThree: #b8c7ce;
+$grayFour: #aeaeae;
+$grayFive: #212529;
+$grayShadow: rgba(69,65,78, 0.1);
+
+@keyframes ms-rotateplane {
+    0% {
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    } 50% {
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    } 100% {
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}

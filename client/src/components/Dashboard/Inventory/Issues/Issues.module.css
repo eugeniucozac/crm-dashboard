@@ -1,0 +1,30 @@
+.open {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background: #357ffa;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 25px !important;
+  width: 10rem;
+  border: none;
+}
+
+.closed {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background: #f9423c;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 25px !important;
+  width: 10rem;
+  border: none;
+}
+
+.closed:hover,
+.closed:active {
+  background: #f9423c;
+}

@@ -1,0 +1,36 @@
+.column {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 14px;
+  margin: 0 0 1rem 0;
+}
+
+.column:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column input {
+  padding: 11px 14px;
+  border-radius: 25px;
+  border: 0;
+  background: #f0f0f7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline-offset: -2px;
+  -webkit-appearance: none;
+  width: 100%!;
+}
+
+.column svg {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+  color: #878793;
+  font-size: 1.15rem;
+}

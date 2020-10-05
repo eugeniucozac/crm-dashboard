@@ -1,0 +1,23 @@
+.suggestions {
+  position: absolute;
+  width: 100%;
+  background: white;
+  top: 4.25rem;
+  z-index: 1;
+  padding: 0 1rem;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.suggestions li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+.suggestions li:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  position: relative;
+}

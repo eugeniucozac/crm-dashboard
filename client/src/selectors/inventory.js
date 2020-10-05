@@ -1,0 +1,15 @@
+export const selectTypes = state => state.inventoryType.data
+export const loadingTypes = state => state.inventoryType.loading
+export const typeErrors = state => state.inventoryType.error
+export const selectManufactures = state => state.inventoryManufacture.data
+export const loadingManufactures = state => state.inventoryManufacture.loading
+export const manufactureErrors = state => state.inventoryManufacture.error
+export const selectModels = state => state.inventoryModel.data
+export const loadingModels = state => state.inventoryModel.loading
+export const modelErrors = state => state.inventoryModel.error
+export const selectKits = state => state.inventoryKit.data
+export const loadingKits = state => state.inventoryKit.loading
+export const kitErrors = state => state.inventoryKit.error
+export const selectHardwares = state => state.inventoryHardware.data
+export const loadingHardwares = state => state.inventoryHardware.loading
+export const hardwareErrors = state => state.inventoryHardware.error

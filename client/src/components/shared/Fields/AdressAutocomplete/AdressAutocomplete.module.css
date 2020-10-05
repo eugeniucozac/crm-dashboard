@@ -1,0 +1,15 @@
+.autocomplete {
+  border-bottom: honeydew;
+  border-left: honeydew;
+  border-right: honeydew;
+  position: absolute;
+  z-index: 1000;
+  width: 80%;
+  background-color: #ececec;
+}
+
+.description {
+  padding: 0 0.75rem;
+  margin: 0.45rem 0;
+  cursor: pointer;
+}

@@ -1,0 +1,276 @@
+<style>
+  body {
+    font: 15px "Calibri";
+    /*  zoom: 0.64; */
+  }
+  .default-header {
+    font: 13px "Calibri";
+    margin: 0 4rem 15px 4rem;
+    border-bottom: 1px solid black;
+  }
+  .default-header > div span {
+    display: block;
+    float: left;
+    width: 33.333%;
+  }
+  .default-header > div span:nth-child(1) {
+    text-align: left;
+  }
+  .default-header > div span:nth-child(2) {
+    text-align: center;
+    padding: 12.5px 0;
+  }
+  .default-header > div span:nth-child(3) {
+    text-align: right;
+    padding: 12.5px 0;
+  }
+  .default-footer {
+    font: 13px "Calibri";
+    margin: 25px 4rem 15px 4rem;
+    border-top: 1px solid black;
+    padding-top: 5px;
+  }
+  .default-footer div::after,
+  .default-header div::after,
+  #pageHeader-last > div::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .default-footer span:nth-child(1) {
+    margin-bottom: 3px;
+    display: block;
+    float: left;
+  }
+  .default-footer span:nth-child(2) {
+    margin-bottom: 3px;
+    display: block;
+    float: right;
+  }
+  h2,
+  h1 {
+    font: bold 16px "Calibri";
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  .wrapper {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  #pageHeader-first img,
+  #pageFooter-first img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  #pageHeader-last {
+    padding: 0 4rem;
+    margin-top: -0.25rem;
+  }
+  #pageHeader-last > div {
+    width: 100%;
+    height: auto;
+  }
+  #pageHeader-last img {
+    display: block;
+    width: 40%;
+    float: right;
+  }
+  #pageHeader-last p span {
+    font: bold 23px "Calibri";
+    color: #808080;
+    line-height: 28px;
+    margin: 0;
+  }
+  #pageHeader-last p span::first-letter {
+    font: bold 29px "Calibri";
+    line-height: 32px;
+  }
+  .lastPage {
+    padding-top: 4rem;
+  }
+  .lastPage table {
+    width: 100%;
+    font-size: 13px;
+  }
+  .lastPage table,
+  .lastPage th,
+  .lastPage td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .lastPage td {
+    padding: 15px 5px;
+  }
+  .lastPage td:first-of-type {
+    width: 35%;
+  }
+  .head {
+    margin-top: 7rem;
+  }
+  .quote-block p,
+  .quote-block h4,
+  .other p,
+  .other h4,
+  .quote-price h3 {
+    padding-left: 1.9rem;
+  }
+  .quote-block h2 {
+    text-transform: capitalize !important;
+  }
+  .other h4 {
+    margin: 0.5rem 0;
+  }
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+  .quote-price table {
+    width: calc(100% - 1.9rem);
+    margin-left: 1.9rem;
+  }
+  .quote-price h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+</style>
+<div id="pageHeader-first" class="hide">
+  <img src="https://i.imgur.com/ddO8zt4.jpg" />
+</div>
+<div id="pageFooter-first" class="hide">
+  <img src="https://i.imgur.com/SYqTxzS.jpg" />
+</div>
+<div id="pageHeader-last" class="hide">
+  <div>
+    <img src="https://i.imgur.com/F1eMX7h.jpg" />
+  </div>
+  <p><span>INSTRUCTION FORM</span></p>
+</div>
+<div id="pageFooter-last"></div>
+<div class="wrapper">
+  <div class="head"></div>
+  <p>
+    Further to your recent enquiry, we are pleased to present you with our scope of work and fee proposal for the above
+    project.
+  </p>
+  <div class="quote-block"></div>
+  <div class="other">
+    <h2>FEE STRUCTURE</h2>
+    <p>
+      Our proposed fees for undertaking the above scope of work are shown below. These are exclusive of VAT, but
+      inclusive of travel and out of pocket expenses.
+    </p>
+    <div class="quote-price"></div>
+    <p>
+      The above fee proposal includes appropriate time for attendance at site surveys for the type and size of the
+      project and for the number of design and coordination meetings indicated above.
+    </p>
+    <p>
+      Additional meetings at your offices or site visits would be chargeable at a rate of £650.00 (+VAT) including
+      travel and expenses.
+    </p>
+    <p>
+      Any further advise to the project team depending on the complexity of any design changes will only be undertaken
+      with prior approval from yourselves at the appropriate prevailing hourly rate of £120.00 per hour (+VAT).
+    </p>
+    <p>
+      Please note that the above fee proposal is valid for a period of 12 months from the date of issue. Hourly fees are
+      revised at the beginning of every calendar year, which may result in incurring an additional charge, depending on
+      when a revised report is requested.
+    </p>
+    <p>
+      Visits can also be made, if appropriate, to witness manufacturer's tests in order to verify that equipment being
+      supplied complies with the requirements of the specification.
+    </p>
+    <p>
+      <strong
+        >Please note that the above itemised quotation is not a binding schedule of works and that the Client may choose
+        any combination of services as required.</strong
+      >
+    </p>
+    <h2>GENERAL</h2>
+    <p>
+      In order to fulfil the terms of this Brief we would expect to be represented at (or receive minutes of) all
+      design, coordination, site and other meetings where the subject matter is relevant to our scope of work.
+    </p>
+    <p>
+      We would expect to be furnished with copies of all relevant specifications, plant schedules and drawings as a
+      matter of course, with full rights to comment on them.
+    </p>
+  </div>
+  <p>
+    We trust that the above is satisfactory for your requirements. Should you have any questions, please do not hesitate
+    to contact us.
+  </p>
+  <p>Yours Sincerely,</p>
+  <p class="consultant"><strong></strong></p>
+  <p><strong>KP Acoustics Ltd.</strong></p>
+  <div class="page-break"></div>
+  <div class="lastPage">
+    <p style="text-align: right; margin: 0;">1 Galena Road</p>
+    <p style="text-align: right; margin: 0;">London</p>
+    <p style="text-align: right; margin: 0;">W6 0LT</p>
+    <p style="text-align: right; margin: 0;">T: +44(0)208 222 8778</p>
+    <p style="text-align: right; margin: 0;">F: +44(0)208 222 8575</p>
+    <p style="text-align: right; margin: 0;">email: info@kpacoustics.com</p>
+    <h3 style="text-align: center; margin-top: 2rem;">Please complete and return this form</h3>
+    <table>
+      <tr>
+        <td>Client Name</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="padding-top: 1.5rem; padding-bottom: 1.5rem;">Invoicing Address</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Accounts Email Address</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Purchase Order Number</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Contact telephone numbers</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Site Contact</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="padding-top: 1.5rem; padding-bottom: 1.5rem;">Site full postall address</td>
+        <td></td>
+      </tr>
+    </table>
+    <ol style="list-style: decimal;">
+      <li>
+        Full access to site should be allowed with a secure location to install the noise monitoring equipment without
+        risk of theft or vandalism
+      </li>
+      <li>
+        Site plans / services drawings / manufacturer’s noise emissions data / planning conditions to be provided prior
+        to the survey
+      </li>
+      <li>
+        Full payment to be made within 30 days of the date of issue of our invoice
+      </li>
+    </ol>
+    <table>
+      <tr>
+        <td style="border: none;">
+          This is a formal appointment of KP Acoustics Ltd. to undertake and fulfil the scope of work referenced
+          20982.200611.Q1. Terms of contract of KP Acoustics Ltd. can be provided upon request.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: none;"><strong>Print Name:</strong></td>
+      </tr>
+      <tr>
+        <td style="border: none;"><strong>Date:</strong></td>
+      </tr>
+    </table>
+  </div>
+</div>

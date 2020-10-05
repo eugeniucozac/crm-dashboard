@@ -1,0 +1,18 @@
+:root {
+  --violet: #3a3952;
+  --violet-two: #5d5cac;
+  --blue: #357ffa;
+  --blue-two: #007bff;
+  --blue-background: rgba(53, 127, 250, 0.7);
+  --white: #fff;
+  --gray: #878793;
+  --gray-border: rgba(0, 0, 0, 0.1);
+  --white-background: #f0f0fa;
+  --red: #f9423c;
+  --green: #28a745;
+  --gray-two: #34334a;
+  --gray-three: #b8c7ce;
+  --gray-four: #aeaeae;
+  --gray-five: #212529;
+  --gray-shadow: rgba(69, 65, 78, 0.1);
+}

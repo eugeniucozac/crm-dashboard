@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 11
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "arrowParens": "avoid",
+        "semi": false,
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

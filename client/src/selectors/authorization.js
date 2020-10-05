@@ -1,0 +1,9 @@
+export const getUserIsAuthorized = state => state.authorization.isAuthorized
+export const selectAuthorization = state => state.authorization
+export const selectRoleAuthorization = state => state.authorization.data.roleName
+export const selectEmailAuthorization = state => state.authorization.data.email
+export const selectAuthorizationId = state => state.authorization.data.id
+export const selectAuthorizationFullName = state => state.authorization.data.fullName
+export const authorizationErrors = state => state.authorization.error
+export const changePasswordSuccess = state => state.authorization.success
+export const sentPasswordSuccess = state => state.authorization.passwordRecovery
